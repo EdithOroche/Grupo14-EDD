@@ -1,0 +1,40 @@
+body {
+    position: relative;
+    background-color: #272424;
+}
+.titulo {
+    margin-top: 0px;
+    color: rgb(230, 216, 27);
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+canvas {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 5px solid rgb(37, 104, 37);
+    background-color: #c5e785;
+    width: 80%;
+    border-radius: 35px;
+}
+.btn-info{
+    margin: 0.5rem;
+    color: #070707;
+    background: #ecf025;
+    border: 5px solid rgb(243, 154, 122);
+    border-radius: 10px;
+}
+.botones{
+    margin-top: 1rem;
+}
+.btn-info:hover{
+    
+    background: rgb(133, 216, 85);
+    border: 3px solid rgb(8, 70, 21);
+}
+#dibujar{
+    display: none;
+}
+h1{
+    margin-bottom: 60px;
+}
